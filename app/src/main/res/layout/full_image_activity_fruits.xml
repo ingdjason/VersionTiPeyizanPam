@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5FED3">
+
+
+    <ImageView android:id="@+id/full_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/abc_ic_clear_mtrl_alpha"
+        android:layout_margin="5dp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/imageView15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="91dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_x="3dp"
+        android:layout_y="256dp"
+        android:background="#F5FED3">
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#F5FED3"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+         <!-- Titre image -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Titre Image"
+            android:id="@+id/textTitle"
+            android:textStyle="normal|bold"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#0F7937" />
+
+        <!-- Description image -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=" Description Image, Description Image Description Image Description Image"
+            android:id="@+id/full_text_view"
+            android:textColor="#0F7937" />
+
+        <!-- Titre sur carte -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Voir +TitreImage sur la carte"
+                android:id="@+id/carteIm"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:textColor="#0F7937"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp" />
+
+            <!-- Adresse image sur carte -->
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/ic_map"
+                android:id="@+id/imageView"
+                android:layout_gravity="center_horizontal" />
+
+            <!-- Espace commentaire -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="COMMENTAIRES"
+                android:id="@+id/textComment"
+                android:textStyle="normal|bold"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#0F7937" />
+
+            <!-- inserer commentaire -->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editComment"
+                android:layout_gravity="right"
+                android:text="Ecrire un commentaire"
+                android:textColor="#A9E46E" />
+            <!-- commentaire recent -->
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listComment" />
+            <!-- Boutton commentaire -->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tous les commentaires(Nbre)"
+                android:id="@+id/btnComment"
+                android:layout_gravity="center_horizontal"
+                android:background="#A9E46E"
+                android:textColor="#0F7939"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

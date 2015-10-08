@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TiPeyizanPam</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">ABOUT</string>
+    <string name="title_activity_splash_screen">Accueil</string>
+    <string name="title_activity_tab_fruits">TabFruits</string>
+    <string name="title_activity_activity_fruits">Fruits</string>
+    <string name="title_activity_activity_hotels">Hotels</string>
+    <string name="title_activity_activity_sites">"Sites "</string>
+    <string name="title_activity_activity_plages">Plages</string>
+    <string name="title_activity_tab_hotels">Hotels</string>
+    <string name="title_activity_tab_sites">Sites</string>
+    <string name="title_activity_tab_plages">Plages</string>
+    <string name="title_activity_full_image_activity_fruits">Fruits</string>
+</resources>

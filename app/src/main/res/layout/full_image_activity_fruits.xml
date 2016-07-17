@@ -8,7 +8,7 @@
 
     <ImageView android:id="@+id/full_image_view"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="300dp"
         android:src="@drawable/abc_ic_clear_mtrl_alpha"
         android:layout_margin="5dp" />
 
@@ -114,7 +114,8 @@
                 android:layout_gravity="center_horizontal"
                 android:background="#A9E46E"
                 android:textColor="#0F7939"
-                android:textStyle="normal|bold" />
+                android:textStyle="normal|bold"
+                android:onClick="btnCom" />
 
         </LinearLayout>
 

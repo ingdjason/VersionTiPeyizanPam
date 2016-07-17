@@ -20,6 +20,19 @@
         android:layout_alignParentStart="true" />
 
 
+    <!--<WebView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/webView"
+        android:background="@drawable/slide"
+        android:maxHeight="160dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:src="@drawable/slide"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>-->
+
     <!-- android:background="@drawable/slide" -->
     <ScrollView
         android:layout_width="match_parent"
@@ -395,5 +408,4 @@
         <!-- fin insertion -->
 
     </ScrollView>
-
 </RelativeLayout>

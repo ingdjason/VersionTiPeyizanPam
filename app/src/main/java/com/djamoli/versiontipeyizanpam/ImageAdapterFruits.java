@@ -57,7 +57,7 @@ public class ImageAdapterFruits extends BaseAdapter {
         ImageView imageView = new ImageView(mContext);
         imageView.setImageResource(mThumbIds[position]);
         imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-        imageView.setLayoutParams(new GridView.LayoutParams(150, 150));
+        imageView.setLayoutParams(new GridView.LayoutParams(100, 100));
         return imageView;
     }
 
